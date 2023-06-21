@@ -18,7 +18,7 @@
 • nmap -sV -sC -O -Pn XX.XX.XX.XX
 ------------------------
 #All Port 
-• nmap -sV -sC -O -Pn  -p 1-65535 XX.XX.XX.XX
+• nmap -sV -sC -O -Pn  -p 0-65535 XX.XX.XX.XX
 ------------------------
 #Nmap Detect And Write Stand-up Servers
 • nmap -v -sn XX.XX.XX.XX-254 -oG upHost.txt 
